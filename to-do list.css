@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    background-color: yellow;
+}
+
+#container {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+
+#input {
+    height: 1cm;
+    width: 7cm;
+    border: 2px solid black;
+}
+
+button {
+    height: 1cm;
+    width: 1cm;
+    background-color: chartreuse;
+    font-weight: bolder;
+    border: 3px solid black;
+}
+
+ol {
+    margin-left: 12cm;
+}
+
+li {
+    padding: 5px;
+    width: 5cm;
+    background-color: yellow;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 0.5cm;
+    font-weight: bold;
+    margin-top: 0.2cm;
+}
