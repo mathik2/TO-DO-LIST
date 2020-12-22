@@ -29,8 +29,10 @@ var storage = document.getElementById("storage");
 var input = document.getElementById("input");
 var button = document.getElementById("btn");
 button.addEventListener("click", function() {
+    if(input.value != ""){
     var item = document.createElement("li");
     item.innerHTML = input.value;
+    }
     firebase.database().ref('works').push({
         work: document.getElementById('input').value
     });
