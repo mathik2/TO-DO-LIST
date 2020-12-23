@@ -46,20 +46,20 @@ li {
                 margin-left: 0rem;
             }
             li {
-                width: 4cm;
+                width: 8cm;
             }
             h1 {
-                margin-left: 1rem;
-                width: 60%;
+                width: 100%;
+                padding:1cm
             }
             #input {
-                width: 5cm;
-                margin-left: 0.3cm;
+                width: 8cm;
+                margin-left: 1cm;
             }
             #container {
                 height: 100px;
-                width: 80%;
-                margin: auto;
+                width: 100%;
+                
                 margin-left: 0.1cm;
             }
         }
