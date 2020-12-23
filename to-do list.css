@@ -42,6 +42,9 @@ li {
             body {
                 background-color: rgb(241, 244, 245);
             }
+     ol{
+         margin-left:0rem;
+     }
            
             li {
                 width: 8cm;
