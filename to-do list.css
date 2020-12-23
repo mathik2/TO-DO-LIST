@@ -37,3 +37,29 @@ li {
     font-weight: bold;
     margin-top: 0.2cm;
 }
+
+ @media only screen and (max-width: 600px) {
+            body {
+                background-color: rgb(241, 244, 245);
+            }
+            ol {
+                margin-left: 0rem;
+            }
+            li {
+                width: 4cm;
+            }
+            h1 {
+                margin-left: 1rem;
+                width: 60%;
+            }
+            #input {
+                width: 5cm;
+                margin-left: 0.3cm;
+            }
+            #container {
+                height: 100px;
+                width: 80%;
+                margin: auto;
+                margin-left: 0.1cm;
+            }
+        }
